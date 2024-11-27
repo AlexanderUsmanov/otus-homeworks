@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var someVariable = Console.ReadLine();
+            Console.WriteLine($"Hello, World!{someVariable}");
             Console.ReadLine();
         }
     }
